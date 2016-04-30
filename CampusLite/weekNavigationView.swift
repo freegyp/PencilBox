@@ -10,14 +10,26 @@ import UIKit
 
 class weekNavigationView: UIView {
     var weekdayButtons:[UIButton]! = [UIButton(),UIButton(),UIButton(),UIButton(),UIButton(),UIButton(),UIButton()]
+    var weekDateSubtitles:[UILabel]! = [UILabel(),UILabel(),UILabel(),UILabel(),UILabel(),UILabel(),UILabel()]
+    var weekDates:[NSDate]! = [NSDate(),NSDate(),NSDate(),NSDate(),NSDate(),NSDate(),NSDate()]
     var weekdaySymbols = NSCalendar.currentCalendar().shortWeekdaySymbols
-    private var wdSymbol:String!
-    var weekdayIdx:Int! = NSCalendar.currentCalendar().components(.Weekday, fromDate: NSDate()).weekday-1{
+    var weekOffset:Int!{
+        didSet{
+            let calendar = NSCalendar.currentCalendar()
+            for i in 0...6{
+                weekDates[i]=calendar.dateByAddingUnit(.Day, value: i-weekDay+weekOffset*7, toDate: NSDate(), options: [])!
+                let components = NSCalendar.currentCalendar().components([.Day,.Month], fromDate: weekDates[i])
+                weekDateSubtitles[i].text = "\(components.month).\(components.day)"
+            }
+        }
+    }
+    var weekDay:Int! = NSCalendar.currentCalendar().components(.Weekday, fromDate: NSDate()).weekday-1
+    var selectedWeekdayIdx:Int! = NSCalendar.currentCalendar().components(.Weekday, fromDate: NSDate()).weekday-1{
         didSet{
             if let _ = oldValue{
                 weekdayButtons[oldValue].backgroundColor = UIColor(red: CGFloat(0.95), green: CGFloat(0.95), blue: CGFloat(0.95), alpha: CGFloat(1.0))
             }
-            weekdayButtons[weekdayIdx].backgroundColor = UIColor.whiteColor()
+            weekdayButtons[selectedWeekdayIdx].backgroundColor = UIColor.whiteColor()
         }
     }
     
@@ -27,6 +39,7 @@ class weekNavigationView: UIView {
 
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        selectedWeekdayIdx = NSCalendar.currentCalendar().components(.Weekday, fromDate: NSDate()).weekday-1
         let w = UIScreen.mainScreen().bounds.width
         for i in 0...6{
             weekdayButtons[i].frame = CGRect(x: CGFloat(CGFloat(i) * w/7), y: 0, width: CGFloat(w/7), height: 64)
@@ -36,10 +49,16 @@ class weekNavigationView: UIView {
             weekdayButtons[i].backgroundColor = UIColor(red: CGFloat(0.95), green: CGFloat(0.95), blue: CGFloat(0.95), alpha: CGFloat(1.0))
             weekdayButtons[i].tintColor=UIColor.whiteColor()
             weekdayButtons[i].addTarget(self, action: #selector(weekpressed(_:)), forControlEvents: .TouchUpInside)
+            weekDateSubtitles[i] = UILabel(frame: CGRect(x: CGFloat(w/14-12),y: 42,width: 48,height: 12))
+            weekDateSubtitles[i].textColor = UIColor.blueColor()
+            weekDateSubtitles[i].backgroundColor = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.0)
+            weekDateSubtitles[i].font = UIFont(name: "Helvetica Neue", size: 12)!
+            weekDateSubtitles[i].text = "5.13"
+            weekdayButtons[i].addSubview(weekDateSubtitles[i])
             self.addSubview(weekdayButtons[i])
         }
-        weekdayIdx = NSCalendar.currentCalendar().components(.Weekday, fromDate: NSDate()).weekday-1
-        weekdayButtons[weekdayIdx].backgroundColor=UIColor.whiteColor()
+        weekOffset=0
+        weekdayButtons[selectedWeekdayIdx].backgroundColor=UIColor.whiteColor()
         //print(weekdayIdx)
         //self.setNeedsDisplay()
     }
@@ -53,19 +72,19 @@ class weekNavigationView: UIView {
         if let title = sender.currentTitle{
             switch title {
             case "Sun":
-                weekdayIdx=0
+                selectedWeekdayIdx=0
             case "Mon":
-                weekdayIdx=1
+                selectedWeekdayIdx=1
             case "Tue":
-                weekdayIdx=2
+                selectedWeekdayIdx=2
             case "Wed":
-                weekdayIdx=3
+                selectedWeekdayIdx=3
             case "Thu":
-                weekdayIdx=4
+                selectedWeekdayIdx=4
             case "Fri":
-                weekdayIdx=5
+                selectedWeekdayIdx=5
             case "Sat":
-                weekdayIdx=6
+                selectedWeekdayIdx=6
             default:
                 break
             }

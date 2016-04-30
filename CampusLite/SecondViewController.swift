@@ -28,6 +28,7 @@ class SecondViewController: UIViewController,UIPopoverPresentationControllerDele
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        weeknavView.weekOffset = 0
         let calendar = NSCalendar.currentCalendar()
         let twoDaysAgo = calendar.dateByAddingUnit(.Day, value: -2, toDate: NSDate(), options: [])
         print(twoDaysAgo)

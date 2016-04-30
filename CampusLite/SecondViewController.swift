@@ -30,9 +30,9 @@ class SecondViewController: UIViewController,UIPopoverPresentationControllerDele
         dateFormatter.dateStyle = NSDateFormatterStyle.FullStyle
         dateFormatter.locale = NSLocale.currentLocale()
         titleDate=NSDate()
-        scheduleView = dayScheduleView(frame: CGRect(x:0,y:0,width: UIScreen.mainScreen().bounds.width,height: 1460))
+        scheduleView = dayScheduleView(frame: CGRect(x:0,y:0,width: UIScreen.mainScreen().bounds.width,height: 980))
         scrollView.addSubview(scheduleView!)
-        scrollView.contentSize=CGSize(width: UIScreen.mainScreen().bounds.width,height: 1460)
+        scrollView.contentSize=CGSize(width: UIScreen.mainScreen().bounds.width,height: 980)
         // Do any additional setup after loading the view, typically from a nib.
     }
 

@@ -22,13 +22,11 @@
 		8474F8271CBF8F05000CE685 /* datePickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8474F8261CBF8F03000CE685 /* datePickViewController.swift */; };
 		848E2EC61CC60A05009734BA /* classesplotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848E2EC51CC60A05009734BA /* classesplotView.swift */; };
 		848E2EC81CC60D6B009734BA /* classesplotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848E2EC71CC60D6B009734BA /* classesplotViewController.swift */; };
+		849BC7151CD42D6B009E550C /* ScheduleEventButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849BC7141CD42D6B009E550C /* ScheduleEventButton.swift */; };
+		849BC7171CD45ADC009E550C /* weekNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849BC7161CD45ADC009E550C /* weekNavigationView.swift */; };
 		84D1C4B01CC048ED00F73042 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D1C4AF1CC048ED00F73042 /* ThirdViewController.swift */; };
 		84D1C4B41CC21DF300F73042 /* shopFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D1C4B31CC21DF300F73042 /* shopFilterViewController.swift */; };
 		84D1C4B71CC228F800F73042 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D1C4B61CC228F800F73042 /* HomeViewController.swift */; };
-		84D1C4B91CC2940200F73042 /* campusnewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D1C4B81CC2940200F73042 /* campusnewsViewController.swift */; };
-		84D1C4BB1CC321CF00F73042 /* campusnewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D1C4BA1CC321CF00F73042 /* campusnewsCell.swift */; };
-		84D1C4BD1CC347EA00F73042 /* usnewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D1C4BC1CC347EA00F73042 /* usnewsViewController.swift */; };
-		84D1C4BF1CC3481700F73042 /* usnewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D1C4BE1CC3481700F73042 /* usnewsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,13 +47,11 @@
 		8474F8261CBF8F03000CE685 /* datePickViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = datePickViewController.swift; path = CampusLite/datePickViewController.swift; sourceTree = "<group>"; };
 		848E2EC51CC60A05009734BA /* classesplotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = classesplotView.swift; path = CampusLite/classesplotView.swift; sourceTree = "<group>"; };
 		848E2EC71CC60D6B009734BA /* classesplotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = classesplotViewController.swift; path = CampusLite/classesplotViewController.swift; sourceTree = "<group>"; };
+		849BC7141CD42D6B009E550C /* ScheduleEventButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScheduleEventButton.swift; path = CampusLite/ScheduleEventButton.swift; sourceTree = "<group>"; };
+		849BC7161CD45ADC009E550C /* weekNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = weekNavigationView.swift; path = CampusLite/weekNavigationView.swift; sourceTree = "<group>"; };
 		84D1C4AF1CC048ED00F73042 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdViewController.swift; path = CampusLite/ThirdViewController.swift; sourceTree = "<group>"; };
 		84D1C4B31CC21DF300F73042 /* shopFilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = shopFilterViewController.swift; path = CampusLite/shopFilterViewController.swift; sourceTree = "<group>"; };
 		84D1C4B61CC228F800F73042 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = CampusLite/HomeViewController.swift; sourceTree = "<group>"; };
-		84D1C4B81CC2940200F73042 /* campusnewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = campusnewsViewController.swift; path = CampusLite/campusnewsViewController.swift; sourceTree = "<group>"; };
-		84D1C4BA1CC321CF00F73042 /* campusnewsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = campusnewsCell.swift; path = CampusLite/campusnewsCell.swift; sourceTree = "<group>"; };
-		84D1C4BC1CC347EA00F73042 /* usnewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = usnewsViewController.swift; path = CampusLite/usnewsViewController.swift; sourceTree = "<group>"; };
-		84D1C4BE1CC3481700F73042 /* usnewsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = usnewsCell.swift; path = CampusLite/usnewsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,9 +115,11 @@
 		8474F8291CBF9342000CE685 /* Schedule Views */ = {
 			isa = PBXGroup;
 			children = (
+				849BC7161CD45ADC009E550C /* weekNavigationView.swift */,
 				8440F0EC1CBA028D00A6208A /* SecondViewController.swift */,
 				8474F8241CBF4C11000CE685 /* dayScheduleView.swift */,
 				8474F8261CBF8F03000CE685 /* datePickViewController.swift */,
+				849BC7141CD42D6B009E550C /* ScheduleEventButton.swift */,
 			);
 			name = "Schedule Views";
 			sourceTree = "<group>";
@@ -140,11 +138,7 @@
 			children = (
 				848E2EC71CC60D6B009734BA /* classesplotViewController.swift */,
 				848E2EC51CC60A05009734BA /* classesplotView.swift */,
-				84D1C4BC1CC347EA00F73042 /* usnewsViewController.swift */,
-				84D1C4BE1CC3481700F73042 /* usnewsCell.swift */,
-				84D1C4B81CC2940200F73042 /* campusnewsViewController.swift */,
 				84D1C4B61CC228F800F73042 /* HomeViewController.swift */,
-				84D1C4BA1CC321CF00F73042 /* campusnewsCell.swift */,
 			);
 			name = "Home Views";
 			sourceTree = "<group>";
@@ -225,19 +219,17 @@
 				848E2EC81CC60D6B009734BA /* classesplotViewController.swift in Sources */,
 				84D1C4B01CC048ED00F73042 /* ThirdViewController.swift in Sources */,
 				8474F8251CBF4C11000CE685 /* dayScheduleView.swift in Sources */,
-				84D1C4BF1CC3481700F73042 /* usnewsCell.swift in Sources */,
 				848E2EC61CC60A05009734BA /* classesplotView.swift in Sources */,
 				8440F1011CBC303200A6208A /* housingTableViewCell.swift in Sources */,
-				84D1C4BB1CC321CF00F73042 /* campusnewsCell.swift in Sources */,
 				8474F8271CBF8F05000CE685 /* datePickViewController.swift in Sources */,
 				8440F0ED1CBA028D00A6208A /* SecondViewController.swift in Sources */,
 				84D1C4B41CC21DF300F73042 /* shopFilterViewController.swift in Sources */,
 				84D1C4B71CC228F800F73042 /* HomeViewController.swift in Sources */,
-				84D1C4BD1CC347EA00F73042 /* usnewsViewController.swift in Sources */,
 				8440F0E91CBA028D00A6208A /* AppDelegate.swift in Sources */,
 				8440F1091CBDABFC00A6208A /* rootViewController.swift in Sources */,
-				84D1C4B91CC2940200F73042 /* campusnewsViewController.swift in Sources */,
+				849BC7171CD45ADC009E550C /* weekNavigationView.swift in Sources */,
 				8440F0EB1CBA028D00A6208A /* FirstViewController.swift in Sources */,
+				849BC7151CD42D6B009E550C /* ScheduleEventButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +345,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (5PGYXRBNNL)";
 				INFOPLIST_FILE = CampusLite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gyp.wm.PencilBox;
 				PRODUCT_NAME = PencilBox;
@@ -365,7 +358,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (5PGYXRBNNL)";
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = CampusLite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gyp.wm.PencilBox;
 				PRODUCT_NAME = PencilBox;

@@ -13,6 +13,8 @@ protocol datePickPopoverFeedback {
 }
 
 class SecondViewController: UIViewController,UIPopoverPresentationControllerDelegate,datePickPopoverFeedback {
+    @IBOutlet var weeknavView: weekNavigationView!
+    
     @IBOutlet var titleBar: UINavigationItem!
     
     @IBOutlet var scrollView: UIScrollView!
@@ -26,6 +28,9 @@ class SecondViewController: UIViewController,UIPopoverPresentationControllerDele
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let calendar = NSCalendar.currentCalendar()
+        let twoDaysAgo = calendar.dateByAddingUnit(.Day, value: -2, toDate: NSDate(), options: [])
+        print(twoDaysAgo)
         dateFormatter.dateFormat = "EEEE, MMMM dd, yyyy"
         dateFormatter.dateStyle = NSDateFormatterStyle.FullStyle
         dateFormatter.locale = NSLocale.currentLocale()

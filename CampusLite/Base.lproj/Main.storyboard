@@ -263,9 +263,6 @@
                                 <rect key="frame" x="0.0" y="64" width="600" height="44"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JIG-rZ-0U0">
-                                <rect key="frame" x="0.0" y="172" width="600" height="379"/>
-                            </scrollView>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dgy-Hn-gwk">
                                 <rect key="frame" x="0.0" y="20" width="600" height="44"/>
                                 <items>
@@ -285,10 +282,13 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Von-fy-MzY">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Von-fy-MzY" customClass="weekNavigationView" customModule="PencilBox" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="108" width="600" height="64"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JIG-rZ-0U0">
+                                <rect key="frame" x="0.0" y="172" width="600" height="379"/>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -312,6 +312,7 @@
                     <connections>
                         <outlet property="scrollView" destination="JIG-rZ-0U0" id="Als-RO-55S"/>
                         <outlet property="titleBar" destination="IJM-P0-9l1" id="K29-4H-J8N"/>
+                        <outlet property="weeknavView" destination="Von-fy-MzY" id="qy0-pu-gL5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
@@ -389,7 +390,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TfJ-JO-uTJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1554" y="1821"/>
+            <point key="canvasLocation" x="2278" y="2169"/>
         </scene>
         <!--Home-->
         <scene sceneID="azf-cC-cpi">
@@ -441,7 +442,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XKJ-2B-f6e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-44" y="1461"/>
+            <point key="canvasLocation" x="-44" y="1445"/>
         </scene>
         <!--Date Pick View Controller-->
         <scene sceneID="wjt-wC-3YG">
@@ -568,7 +569,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yEe-zk-cgv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2330" y="1821"/>
+            <point key="canvasLocation" x="3058" y="2169"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="yl2-sM-qoP">

@@ -8,7 +8,13 @@
 
 import UIKit
 
-class weekNavigationView: UIView {
+protocol dateOffsetDelegate {
+    func incrementWeek()
+    func decrementWeek()
+}
+
+class weekNavigationView: UIView,dateOffsetDelegate {
+    var dateSelectDelegate:barDateDelegate?
     var weekdayButtons:[UIButton]! = [UIButton(),UIButton(),UIButton(),UIButton(),UIButton(),UIButton(),UIButton()]
     var weekDateSubtitles:[UILabel]! = [UILabel(),UILabel(),UILabel(),UILabel(),UILabel(),UILabel(),UILabel()]
     var weekDates:[NSDate]! = [NSDate(),NSDate(),NSDate(),NSDate(),NSDate(),NSDate(),NSDate()]
@@ -30,6 +36,7 @@ class weekNavigationView: UIView {
                 weekdayButtons[oldValue].backgroundColor = UIColor(red: CGFloat(0.95), green: CGFloat(0.95), blue: CGFloat(0.95), alpha: CGFloat(1.0))
             }
             weekdayButtons[selectedWeekdayIdx].backgroundColor = UIColor.whiteColor()
+            dateSelectDelegate?.feedbackResult(weekDates[selectedWeekdayIdx])
         }
     }
     
@@ -91,5 +98,11 @@ class weekNavigationView: UIView {
         }
     }
     
+    func incrementWeek() {
+        weekOffset = weekOffset + 1
+    }
+    func decrementWeek() {
+        weekOffset = weekOffset - 1
+    }
 
 }

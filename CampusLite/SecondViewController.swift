@@ -12,12 +12,25 @@ protocol datePickPopoverFeedback {
     func feedbackResult(date:NSDate)
 }
 
-class SecondViewController: UIViewController,UIPopoverPresentationControllerDelegate,datePickPopoverFeedback {
+protocol barDateDelegate {
+    func feedbackResult(date:NSDate)
+}
+
+class SecondViewController: UIViewController,UIPopoverPresentationControllerDelegate,barDateDelegate {
+    @IBAction func prevWeek(sender: AnyObject) {
+        weekDelegate?.decrementWeek()
+    }
+    
+    @IBAction func nextWeek(sender: AnyObject) {
+        weekDelegate?.incrementWeek()
+    }
+    
     @IBOutlet var weeknavView: weekNavigationView!
     
     @IBOutlet var titleBar: UINavigationItem!
     
     @IBOutlet var scrollView: UIScrollView!
+    var weekDelegate:dateOffsetDelegate?
     var dateFormatter:NSDateFormatter = NSDateFormatter()
     var scheduleView:dayScheduleView?
     var titleDate:NSDate = NSDate(){
@@ -29,6 +42,10 @@ class SecondViewController: UIViewController,UIPopoverPresentationControllerDele
     override func viewDidLoad() {
         super.viewDidLoad()
         weeknavView.weekOffset = 0
+        if let _ = weeknavView as? dateOffsetDelegate{
+            weekDelegate = weeknavView
+            weeknavView.dateSelectDelegate=self
+        }
         let calendar = NSCalendar.currentCalendar()
         let twoDaysAgo = calendar.dateByAddingUnit(.Day, value: -2, toDate: NSDate(), options: [])
         print(twoDaysAgo)
@@ -55,7 +72,7 @@ class SecondViewController: UIViewController,UIPopoverPresentationControllerDele
                     if let ppc=vc.popoverPresentationController{
                         ppc.permittedArrowDirections=UIPopoverArrowDirection.Any
                         ppc.delegate=self
-                        vc.delegate=self
+                        //vc.delegate=self
                     }
                 }
             default:

@@ -20,25 +20,25 @@ class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        myClassButton.backgroundColor = UIColor.blueColor()
+        myClassButton.backgroundColor = UIColor(red: CGFloat(0.0), green: CGFloat(1.0), blue: CGFloat(1.0), alpha: CGFloat(1.0))
         myClassButton.setTitle("My\nClasses", forState: .Normal)
         myClassButton.titleLabel?.textAlignment = NSTextAlignment.Center
         myClassButton.titleLabel?.lineBreakMode = NSLineBreakMode.ByWordWrapping
         myClassButton.setTitleColor(UIColor.blackColor(), forState: .Normal)
         //myClassButton.frame = CGRectMake(0, 0, UIScreen.mainScreen().bounds.width/4, 100)
-        myTwitsButton.backgroundColor = UIColor.greenColor()
+        myTwitsButton.backgroundColor = UIColor(red: CGFloat(0.0), green: CGFloat(1.0), blue: CGFloat(1.0), alpha: CGFloat(1.0))
         myTwitsButton.setTitle("My\nPosts", forState: .Normal)
         myTwitsButton.titleLabel?.textAlignment = NSTextAlignment.Center
         myTwitsButton.titleLabel?.lineBreakMode = NSLineBreakMode.ByWordWrapping
         myTwitsButton.setTitleColor(UIColor.blackColor(), forState: .Normal)
         //myTwitsButton.frame = CGRectMake(UIScreen.mainScreen().bounds.width/4, 0, UIScreen.mainScreen().bounds.width/4, 100)
-        secondhandButton.backgroundColor = UIColor.blueColor()
+        secondhandButton.backgroundColor = UIColor(red: CGFloat(0.0), green: CGFloat(1.0), blue: CGFloat(1.0), alpha: CGFloat(1.0))
         secondhandButton.setTitle("Second\nHand", forState: .Normal)
         secondhandButton.titleLabel?.textAlignment = NSTextAlignment.Center
         secondhandButton.titleLabel?.lineBreakMode = NSLineBreakMode.ByWordWrapping
         secondhandButton.setTitleColor(UIColor.blackColor(), forState: .Normal)
         //secondhandButton.frame = CGRectMake(UIScreen.mainScreen().bounds.width/2, 0, UIScreen.mainScreen().bounds.width/4, 100)
-        flashgamesButton.backgroundColor = UIColor.greenColor()
+        flashgamesButton.backgroundColor = UIColor(red: CGFloat(0.0), green: CGFloat(1.0), blue: CGFloat(1.0), alpha: CGFloat(1.0))
         flashgamesButton.setTitle("Flash\nGames", forState: .Normal)
         flashgamesButton.titleLabel?.textAlignment = NSTextAlignment.Center
         flashgamesButton.titleLabel?.lineBreakMode = NSLineBreakMode.ByWordWrapping

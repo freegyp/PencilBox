@@ -407,22 +407,22 @@
                                 <rect key="frame" x="0.0" y="20" width="600" height="531"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tOW-a0-MnI">
-                                        <rect key="frame" x="0.0" y="0.0" width="93" height="100"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="93" height="61"/>
                                         <state key="normal" title="My Classes"/>
                                         <connections>
                                             <segue destination="Zsv-dW-pao" kind="showDetail" id="nti-AR-egn"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Cm-fs-NIw">
-                                        <rect key="frame" x="94" y="0.0" width="94" height="100"/>
+                                        <rect key="frame" x="94" y="0.0" width="94" height="61"/>
                                         <state key="normal" title="Button"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ySK-qu-yj9">
-                                        <rect key="frame" x="188" y="0.0" width="93" height="100"/>
+                                        <rect key="frame" x="188" y="0.0" width="93" height="61"/>
                                         <state key="normal" title="Button"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WaR-Oi-Vsx">
-                                        <rect key="frame" x="282" y="0.0" width="94" height="100"/>
+                                        <rect key="frame" x="282" y="0.0" width="94" height="61"/>
                                         <state key="normal" title="Button"/>
                                     </button>
                                 </subviews>

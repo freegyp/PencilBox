@@ -7,6 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840EB1FE1CDCBC39008FEB6D /* GTLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EB1E41CDCBC39008FEB6D /* GTLObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		840EB1FF1CDCBC39008FEB6D /* GTLQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EB1E61CDCBC39008FEB6D /* GTLQuery.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		840EB2001CDCBC39008FEB6D /* GTLBatchQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EB1E81CDCBC39008FEB6D /* GTLBatchQuery.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		840EB2011CDCBC39008FEB6D /* GTLService.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EB1EA1CDCBC39008FEB6D /* GTLService.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		840EB2021CDCBC39008FEB6D /* GTLBatchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EB1EC1CDCBC39008FEB6D /* GTLBatchResult.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		840EB2031CDCBC39008FEB6D /* GTLUploadParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EB1EE1CDCBC39008FEB6D /* GTLUploadParameters.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		840EB2041CDCBC39008FEB6D /* GTLDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EB1F01CDCBC39008FEB6D /* GTLDateTime.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		840EB2051CDCBC39008FEB6D /* GTLErrorObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EB1F21CDCBC39008FEB6D /* GTLErrorObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		840EB2061CDCBC39008FEB6D /* GTLRuntimeCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EB1F41CDCBC39008FEB6D /* GTLRuntimeCommon.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		840EB2071CDCBC39008FEB6D /* GTLFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EB1F61CDCBC39008FEB6D /* GTLFramework.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		840EB2081CDCBC39008FEB6D /* GTLJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EB1F81CDCBC39008FEB6D /* GTLJSONParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		840EB2091CDCBC39008FEB6D /* GTLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EB1FB1CDCBC39008FEB6D /* GTLUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		840EB20A1CDCBC39008FEB6D /* GTLBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EB1FD1CDCBC39008FEB6D /* GTLBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		840EB2281CDCBC60008FEB6D /* GTLClassmngClassScheduleItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EB20E1CDCBC60008FEB6D /* GTLClassmngClassScheduleItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		840EB2291CDCBC60008FEB6D /* GTLClassmngConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EB2101CDCBC60008FEB6D /* GTLClassmngConstants.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		840EB22A1CDCBC60008FEB6D /* GTLClassmngUserClassSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EB2121CDCBC60008FEB6D /* GTLClassmngUserClassSchedule.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		840EB22B1CDCBC60008FEB6D /* GTLClassmngUserMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EB2141CDCBC60008FEB6D /* GTLClassmngUserMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		840EB22C1CDCBC60008FEB6D /* GTLQueryClassmng.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EB2161CDCBC60008FEB6D /* GTLQueryClassmng.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		840EB22D1CDCBC60008FEB6D /* GTLQuerySchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EB2181CDCBC60008FEB6D /* GTLQuerySchedule.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		840EB22F1CDCBC60008FEB6D /* GTLScheduleConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EB21C1CDCBC60008FEB6D /* GTLScheduleConstants.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		840EB2301CDCBC60008FEB6D /* GTLScheduleDEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EB21E1CDCBC60008FEB6D /* GTLScheduleDEvent.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		840EB2311CDCBC60008FEB6D /* GTLScheduleUserMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EB2201CDCBC60008FEB6D /* GTLScheduleUserMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		840EB2321CDCBC60008FEB6D /* GTLScheduleUserScheduledEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EB2221CDCBC60008FEB6D /* GTLScheduleUserScheduledEvents.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		840EB2331CDCBC60008FEB6D /* GTLServiceClassmng.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EB2241CDCBC60008FEB6D /* GTLServiceClassmng.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		840EB2341CDCBC60008FEB6D /* GTLServiceSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EB2261CDCBC60008FEB6D /* GTLServiceSchedule.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		840EB2471CDCBCE8008FEB6D /* GTL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840EB2401CDCBCCE008FEB6D /* GTL.framework */; };
 		8440F0E91CBA028D00A6208A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440F0E81CBA028D00A6208A /* AppDelegate.swift */; };
 		8440F0EB1CBA028D00A6208A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440F0EA1CBA028D00A6208A /* FirstViewController.swift */; };
 		8440F0ED1CBA028D00A6208A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440F0EC1CBA028D00A6208A /* SecondViewController.swift */; };
@@ -15,8 +41,6 @@
 		8440F0F51CBA028D00A6208A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8440F0F31CBA028D00A6208A /* LaunchScreen.storyboard */; };
 		8440F0FF1CBB711B00A6208A /* houseFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440F0FE1CBB711B00A6208A /* houseFilterViewController.swift */; };
 		8440F1011CBC303200A6208A /* housingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440F1001CBC303200A6208A /* housingTableViewCell.swift */; };
-		8440F1031CBC694A00A6208A /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8440F1021CBC694A00A6208A /* EventKitUI.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		8440F1051CBC697400A6208A /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8440F1041CBC697400A6208A /* EventKit.framework */; };
 		8440F1091CBDABFC00A6208A /* rootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440F1081CBDABFB00A6208A /* rootViewController.swift */; };
 		8474F8251CBF4C11000CE685 /* dayScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8474F8241CBF4C11000CE685 /* dayScheduleView.swift */; };
 		8474F8271CBF8F05000CE685 /* datePickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8474F8261CBF8F03000CE685 /* datePickViewController.swift */; };
@@ -29,7 +53,101 @@
 		84D1C4B71CC228F800F73042 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D1C4B61CC228F800F73042 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		840EB23D1CDCBCCE008FEB6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840EB2351CDCBCCE008FEB6D /* GTLCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F38F6A60B66E91D00B24B81;
+			remoteInfo = GTLOSXCore;
+		};
+		840EB23F1CDCBCCE008FEB6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840EB2351CDCBCCE008FEB6D /* GTLCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F4469DB41C40229D00BCFAA1;
+			remoteInfo = GTLiOSCore;
+		};
+		840EB2411CDCBCCE008FEB6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840EB2351CDCBCCE008FEB6D /* GTLCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F4368F721B8233BF00E17643;
+			remoteInfo = GTLiOSUnitTests;
+		};
+		840EB2431CDCBCCE008FEB6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840EB2351CDCBCCE008FEB6D /* GTLCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F12027D11A4CA2F00BEB470;
+			remoteInfo = GTLOSXUnitTests;
+		};
+		840EB2451CDCBCCE008FEB6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840EB2351CDCBCCE008FEB6D /* GTLCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F1AD9020B71603F00DC0485;
+			remoteInfo = OSXDevTool;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		840EB1E11CDCBC2D008FEB6D /* PencilBox-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PencilBox-Bridging-Header.h"; sourceTree = "<group>"; };
+		840EB1E21CDCBC39008FEB6D /* GTLDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDefines.h; sourceTree = "<group>"; };
+		840EB1E31CDCBC39008FEB6D /* GTLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLObject.h; sourceTree = "<group>"; };
+		840EB1E41CDCBC39008FEB6D /* GTLObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLObject.m; sourceTree = "<group>"; };
+		840EB1E51CDCBC39008FEB6D /* GTLQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLQuery.h; sourceTree = "<group>"; };
+		840EB1E61CDCBC39008FEB6D /* GTLQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLQuery.m; sourceTree = "<group>"; };
+		840EB1E71CDCBC39008FEB6D /* GTLBatchQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLBatchQuery.h; sourceTree = "<group>"; };
+		840EB1E81CDCBC39008FEB6D /* GTLBatchQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLBatchQuery.m; sourceTree = "<group>"; };
+		840EB1E91CDCBC39008FEB6D /* GTLService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLService.h; sourceTree = "<group>"; };
+		840EB1EA1CDCBC39008FEB6D /* GTLService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLService.m; sourceTree = "<group>"; };
+		840EB1EB1CDCBC39008FEB6D /* GTLBatchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLBatchResult.h; sourceTree = "<group>"; };
+		840EB1EC1CDCBC39008FEB6D /* GTLBatchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLBatchResult.m; sourceTree = "<group>"; };
+		840EB1ED1CDCBC39008FEB6D /* GTLUploadParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLUploadParameters.h; sourceTree = "<group>"; };
+		840EB1EE1CDCBC39008FEB6D /* GTLUploadParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLUploadParameters.m; sourceTree = "<group>"; };
+		840EB1EF1CDCBC39008FEB6D /* GTLDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDateTime.h; sourceTree = "<group>"; };
+		840EB1F01CDCBC39008FEB6D /* GTLDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDateTime.m; sourceTree = "<group>"; };
+		840EB1F11CDCBC39008FEB6D /* GTLErrorObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLErrorObject.h; sourceTree = "<group>"; };
+		840EB1F21CDCBC39008FEB6D /* GTLErrorObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLErrorObject.m; sourceTree = "<group>"; };
+		840EB1F31CDCBC39008FEB6D /* GTLRuntimeCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLRuntimeCommon.h; sourceTree = "<group>"; };
+		840EB1F41CDCBC39008FEB6D /* GTLRuntimeCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLRuntimeCommon.m; sourceTree = "<group>"; };
+		840EB1F51CDCBC39008FEB6D /* GTLFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLFramework.h; sourceTree = "<group>"; };
+		840EB1F61CDCBC39008FEB6D /* GTLFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLFramework.m; sourceTree = "<group>"; };
+		840EB1F71CDCBC39008FEB6D /* GTLJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLJSONParser.h; sourceTree = "<group>"; };
+		840EB1F81CDCBC39008FEB6D /* GTLJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLJSONParser.m; sourceTree = "<group>"; };
+		840EB1F91CDCBC39008FEB6D /* GTLTargetNamespace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLTargetNamespace.h; sourceTree = "<group>"; };
+		840EB1FA1CDCBC39008FEB6D /* GTLUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLUtilities.h; sourceTree = "<group>"; };
+		840EB1FB1CDCBC39008FEB6D /* GTLUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLUtilities.m; sourceTree = "<group>"; };
+		840EB1FC1CDCBC39008FEB6D /* GTLBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLBase64.h; sourceTree = "<group>"; };
+		840EB1FD1CDCBC39008FEB6D /* GTLBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLBase64.m; sourceTree = "<group>"; };
+		840EB20C1CDCBC60008FEB6D /* GTLClassmng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLClassmng.h; sourceTree = "<group>"; };
+		840EB20D1CDCBC60008FEB6D /* GTLClassmngClassScheduleItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLClassmngClassScheduleItem.h; sourceTree = "<group>"; };
+		840EB20E1CDCBC60008FEB6D /* GTLClassmngClassScheduleItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLClassmngClassScheduleItem.m; sourceTree = "<group>"; };
+		840EB20F1CDCBC60008FEB6D /* GTLClassmngConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLClassmngConstants.h; sourceTree = "<group>"; };
+		840EB2101CDCBC60008FEB6D /* GTLClassmngConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLClassmngConstants.m; sourceTree = "<group>"; };
+		840EB2111CDCBC60008FEB6D /* GTLClassmngUserClassSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLClassmngUserClassSchedule.h; sourceTree = "<group>"; };
+		840EB2121CDCBC60008FEB6D /* GTLClassmngUserClassSchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLClassmngUserClassSchedule.m; sourceTree = "<group>"; };
+		840EB2131CDCBC60008FEB6D /* GTLClassmngUserMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLClassmngUserMessage.h; sourceTree = "<group>"; };
+		840EB2141CDCBC60008FEB6D /* GTLClassmngUserMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLClassmngUserMessage.m; sourceTree = "<group>"; };
+		840EB2151CDCBC60008FEB6D /* GTLQueryClassmng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLQueryClassmng.h; sourceTree = "<group>"; };
+		840EB2161CDCBC60008FEB6D /* GTLQueryClassmng.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLQueryClassmng.m; sourceTree = "<group>"; };
+		840EB2171CDCBC60008FEB6D /* GTLQuerySchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLQuerySchedule.h; sourceTree = "<group>"; };
+		840EB2181CDCBC60008FEB6D /* GTLQuerySchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLQuerySchedule.m; sourceTree = "<group>"; };
+		840EB21A1CDCBC60008FEB6D /* GTLSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLSchedule.h; sourceTree = "<group>"; };
+		840EB21B1CDCBC60008FEB6D /* GTLScheduleConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLScheduleConstants.h; sourceTree = "<group>"; };
+		840EB21C1CDCBC60008FEB6D /* GTLScheduleConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLScheduleConstants.m; sourceTree = "<group>"; };
+		840EB21D1CDCBC60008FEB6D /* GTLScheduleDEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLScheduleDEvent.h; sourceTree = "<group>"; };
+		840EB21E1CDCBC60008FEB6D /* GTLScheduleDEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLScheduleDEvent.m; sourceTree = "<group>"; };
+		840EB21F1CDCBC60008FEB6D /* GTLScheduleUserMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLScheduleUserMessage.h; sourceTree = "<group>"; };
+		840EB2201CDCBC60008FEB6D /* GTLScheduleUserMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLScheduleUserMessage.m; sourceTree = "<group>"; };
+		840EB2211CDCBC60008FEB6D /* GTLScheduleUserScheduledEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLScheduleUserScheduledEvents.h; sourceTree = "<group>"; };
+		840EB2221CDCBC60008FEB6D /* GTLScheduleUserScheduledEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLScheduleUserScheduledEvents.m; sourceTree = "<group>"; };
+		840EB2231CDCBC60008FEB6D /* GTLServiceClassmng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLServiceClassmng.h; sourceTree = "<group>"; };
+		840EB2241CDCBC60008FEB6D /* GTLServiceClassmng.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLServiceClassmng.m; sourceTree = "<group>"; };
+		840EB2251CDCBC60008FEB6D /* GTLServiceSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLServiceSchedule.h; sourceTree = "<group>"; };
+		840EB2261CDCBC60008FEB6D /* GTLServiceSchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLServiceSchedule.m; sourceTree = "<group>"; };
+		840EB2351CDCBCCE008FEB6D /* GTLCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GTLCore.xcodeproj; path = "../../../google-api-objectivec-client/Source/GTLCore.xcodeproj"; sourceTree = "<group>"; };
 		8440F0E51CBA028C00A6208A /* PencilBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PencilBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8440F0E81CBA028D00A6208A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8440F0EA1CBA028D00A6208A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = CampusLite/FirstViewController.swift; sourceTree = "<group>"; };
@@ -59,17 +177,92 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8440F1051CBC697400A6208A /* EventKit.framework in Frameworks */,
-				8440F1031CBC694A00A6208A /* EventKitUI.framework in Frameworks */,
+				840EB2471CDCBCE8008FEB6D /* GTL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		840EB17A1CDCB8AA008FEB6D /* GTMapi */ = {
+			isa = PBXGroup;
+			children = (
+				840EB20C1CDCBC60008FEB6D /* GTLClassmng.h */,
+				840EB20D1CDCBC60008FEB6D /* GTLClassmngClassScheduleItem.h */,
+				840EB20E1CDCBC60008FEB6D /* GTLClassmngClassScheduleItem.m */,
+				840EB20F1CDCBC60008FEB6D /* GTLClassmngConstants.h */,
+				840EB2101CDCBC60008FEB6D /* GTLClassmngConstants.m */,
+				840EB2111CDCBC60008FEB6D /* GTLClassmngUserClassSchedule.h */,
+				840EB2121CDCBC60008FEB6D /* GTLClassmngUserClassSchedule.m */,
+				840EB2131CDCBC60008FEB6D /* GTLClassmngUserMessage.h */,
+				840EB2141CDCBC60008FEB6D /* GTLClassmngUserMessage.m */,
+				840EB2151CDCBC60008FEB6D /* GTLQueryClassmng.h */,
+				840EB2161CDCBC60008FEB6D /* GTLQueryClassmng.m */,
+				840EB2171CDCBC60008FEB6D /* GTLQuerySchedule.h */,
+				840EB2181CDCBC60008FEB6D /* GTLQuerySchedule.m */,
+				840EB21A1CDCBC60008FEB6D /* GTLSchedule.h */,
+				840EB21B1CDCBC60008FEB6D /* GTLScheduleConstants.h */,
+				840EB21C1CDCBC60008FEB6D /* GTLScheduleConstants.m */,
+				840EB21D1CDCBC60008FEB6D /* GTLScheduleDEvent.h */,
+				840EB21E1CDCBC60008FEB6D /* GTLScheduleDEvent.m */,
+				840EB21F1CDCBC60008FEB6D /* GTLScheduleUserMessage.h */,
+				840EB2201CDCBC60008FEB6D /* GTLScheduleUserMessage.m */,
+				840EB2211CDCBC60008FEB6D /* GTLScheduleUserScheduledEvents.h */,
+				840EB2221CDCBC60008FEB6D /* GTLScheduleUserScheduledEvents.m */,
+				840EB2231CDCBC60008FEB6D /* GTLServiceClassmng.h */,
+				840EB2241CDCBC60008FEB6D /* GTLServiceClassmng.m */,
+				840EB2251CDCBC60008FEB6D /* GTLServiceSchedule.h */,
+				840EB2261CDCBC60008FEB6D /* GTLServiceSchedule.m */,
+				840EB1E21CDCBC39008FEB6D /* GTLDefines.h */,
+				840EB1E31CDCBC39008FEB6D /* GTLObject.h */,
+				840EB1E41CDCBC39008FEB6D /* GTLObject.m */,
+				840EB1E51CDCBC39008FEB6D /* GTLQuery.h */,
+				840EB1E61CDCBC39008FEB6D /* GTLQuery.m */,
+				840EB1E71CDCBC39008FEB6D /* GTLBatchQuery.h */,
+				840EB1E81CDCBC39008FEB6D /* GTLBatchQuery.m */,
+				840EB1E91CDCBC39008FEB6D /* GTLService.h */,
+				840EB1EA1CDCBC39008FEB6D /* GTLService.m */,
+				840EB1EB1CDCBC39008FEB6D /* GTLBatchResult.h */,
+				840EB1EC1CDCBC39008FEB6D /* GTLBatchResult.m */,
+				840EB1ED1CDCBC39008FEB6D /* GTLUploadParameters.h */,
+				840EB1EE1CDCBC39008FEB6D /* GTLUploadParameters.m */,
+				840EB1EF1CDCBC39008FEB6D /* GTLDateTime.h */,
+				840EB1F01CDCBC39008FEB6D /* GTLDateTime.m */,
+				840EB1F11CDCBC39008FEB6D /* GTLErrorObject.h */,
+				840EB1F21CDCBC39008FEB6D /* GTLErrorObject.m */,
+				840EB1F31CDCBC39008FEB6D /* GTLRuntimeCommon.h */,
+				840EB1F41CDCBC39008FEB6D /* GTLRuntimeCommon.m */,
+				840EB1F51CDCBC39008FEB6D /* GTLFramework.h */,
+				840EB1F61CDCBC39008FEB6D /* GTLFramework.m */,
+				840EB1F71CDCBC39008FEB6D /* GTLJSONParser.h */,
+				840EB1F81CDCBC39008FEB6D /* GTLJSONParser.m */,
+				840EB1F91CDCBC39008FEB6D /* GTLTargetNamespace.h */,
+				840EB1FA1CDCBC39008FEB6D /* GTLUtilities.h */,
+				840EB1FB1CDCBC39008FEB6D /* GTLUtilities.m */,
+				840EB1FC1CDCBC39008FEB6D /* GTLBase64.h */,
+				840EB1FD1CDCBC39008FEB6D /* GTLBase64.m */,
+				840EB1E11CDCBC2D008FEB6D /* PencilBox-Bridging-Header.h */,
+			);
+			name = GTMapi;
+			sourceTree = "<group>";
+		};
+		840EB2361CDCBCCE008FEB6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				840EB23E1CDCBCCE008FEB6D /* GTL.framework */,
+				840EB2401CDCBCCE008FEB6D /* GTL.framework */,
+				840EB2421CDCBCCE008FEB6D /* GTLiOSUnitTests.xctest */,
+				840EB2441CDCBCCE008FEB6D /* GTLUnitTests.xctest */,
+				840EB2461CDCBCCE008FEB6D /* OSXDevTool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		8440F0DC1CBA028C00A6208A = {
 			isa = PBXGroup;
 			children = (
+				840EB2351CDCBCCE008FEB6D /* GTLCore.xcodeproj */,
+				840EB17A1CDCB8AA008FEB6D /* GTMapi */,
 				84D1C4B51CC2287600F73042 /* Home Views */,
 				84D1C4AE1CC0450D00F73042 /* Shops Views */,
 				8474F8281CBF9317000CE685 /* HousingViews */,
@@ -190,12 +383,56 @@
 			mainGroup = 8440F0DC1CBA028C00A6208A;
 			productRefGroup = 8440F0E61CBA028C00A6208A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 840EB2361CDCBCCE008FEB6D /* Products */;
+					ProjectRef = 840EB2351CDCBCCE008FEB6D /* GTLCore.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8440F0E41CBA028C00A6208A /* PencilBox */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		840EB23E1CDCBCCE008FEB6D /* GTL.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GTL.framework;
+			remoteRef = 840EB23D1CDCBCCE008FEB6D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		840EB2401CDCBCCE008FEB6D /* GTL.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GTL.framework;
+			remoteRef = 840EB23F1CDCBCCE008FEB6D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		840EB2421CDCBCCE008FEB6D /* GTLiOSUnitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GTLiOSUnitTests.xctest;
+			remoteRef = 840EB2411CDCBCCE008FEB6D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		840EB2441CDCBCCE008FEB6D /* GTLUnitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GTLUnitTests.xctest;
+			remoteRef = 840EB2431CDCBCCE008FEB6D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		840EB2461CDCBCCE008FEB6D /* OSXDevTool */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = OSXDevTool;
+			remoteRef = 840EB2451CDCBCCE008FEB6D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8440F0E31CBA028C00A6208A /* Resources */ = {
@@ -215,18 +452,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840EB2011CDCBC39008FEB6D /* GTLService.m in Sources */,
+				840EB2061CDCBC39008FEB6D /* GTLRuntimeCommon.m in Sources */,
 				8440F0FF1CBB711B00A6208A /* houseFilterViewController.swift in Sources */,
+				840EB2001CDCBC39008FEB6D /* GTLBatchQuery.m in Sources */,
+				840EB22F1CDCBC60008FEB6D /* GTLScheduleConstants.m in Sources */,
+				840EB2081CDCBC39008FEB6D /* GTLJSONParser.m in Sources */,
+				840EB2311CDCBC60008FEB6D /* GTLScheduleUserMessage.m in Sources */,
+				840EB2301CDCBC60008FEB6D /* GTLScheduleDEvent.m in Sources */,
+				840EB2341CDCBC60008FEB6D /* GTLServiceSchedule.m in Sources */,
 				848E2EC81CC60D6B009734BA /* classesplotViewController.swift in Sources */,
+				840EB22C1CDCBC60008FEB6D /* GTLQueryClassmng.m in Sources */,
 				84D1C4B01CC048ED00F73042 /* ThirdViewController.swift in Sources */,
 				8474F8251CBF4C11000CE685 /* dayScheduleView.swift in Sources */,
+				840EB2281CDCBC60008FEB6D /* GTLClassmngClassScheduleItem.m in Sources */,
+				840EB2031CDCBC39008FEB6D /* GTLUploadParameters.m in Sources */,
+				840EB2291CDCBC60008FEB6D /* GTLClassmngConstants.m in Sources */,
+				840EB2051CDCBC39008FEB6D /* GTLErrorObject.m in Sources */,
+				840EB1FE1CDCBC39008FEB6D /* GTLObject.m in Sources */,
+				840EB2331CDCBC60008FEB6D /* GTLServiceClassmng.m in Sources */,
+				840EB2091CDCBC39008FEB6D /* GTLUtilities.m in Sources */,
 				848E2EC61CC60A05009734BA /* classesplotView.swift in Sources */,
 				8440F1011CBC303200A6208A /* housingTableViewCell.swift in Sources */,
 				8474F8271CBF8F05000CE685 /* datePickViewController.swift in Sources */,
+				840EB2071CDCBC39008FEB6D /* GTLFramework.m in Sources */,
+				840EB2321CDCBC60008FEB6D /* GTLScheduleUserScheduledEvents.m in Sources */,
+				840EB22D1CDCBC60008FEB6D /* GTLQuerySchedule.m in Sources */,
 				8440F0ED1CBA028D00A6208A /* SecondViewController.swift in Sources */,
+				840EB2021CDCBC39008FEB6D /* GTLBatchResult.m in Sources */,
+				840EB1FF1CDCBC39008FEB6D /* GTLQuery.m in Sources */,
 				84D1C4B41CC21DF300F73042 /* shopFilterViewController.swift in Sources */,
 				84D1C4B71CC228F800F73042 /* HomeViewController.swift in Sources */,
 				8440F0E91CBA028D00A6208A /* AppDelegate.swift in Sources */,
+				840EB22B1CDCBC60008FEB6D /* GTLClassmngUserMessage.m in Sources */,
+				840EB20A1CDCBC39008FEB6D /* GTLBase64.m in Sources */,
+				840EB22A1CDCBC60008FEB6D /* GTLClassmngUserClassSchedule.m in Sources */,
 				8440F1091CBDABFC00A6208A /* rootViewController.swift in Sources */,
+				840EB2041CDCBC39008FEB6D /* GTLDateTime.m in Sources */,
 				849BC7171CD45ADC009E550C /* weekNavigationView.swift in Sources */,
 				8440F0EB1CBA028D00A6208A /* FirstViewController.swift in Sources */,
 				849BC7151CD42D6B009E550C /* ScheduleEventButton.swift in Sources */,
@@ -343,6 +605,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: sunchingting@gmail.com (YA5BNCV2MW)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CampusLite/Info.plist;
@@ -351,6 +614,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = gyp.wm.PencilBox;
 				PRODUCT_NAME = PencilBox;
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PencilBox-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "/Users/admin/google-api-objectivec-client/Deps/gtm-session-fetcher/Source /Users/admin/google-api-objectivec-client/Source";
 			};
 			name = Debug;
 		};
@@ -359,6 +625,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: sunchingting@gmail.com (YA5BNCV2MW)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_TESTABILITY = YES;
@@ -368,6 +635,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = gyp.wm.PencilBox;
 				PRODUCT_NAME = PencilBox;
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PencilBox-Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "/Users/admin/google-api-objectivec-client/Deps/gtm-session-fetcher/Source /Users/admin/google-api-objectivec-client/Source";
 			};
 			name = Release;
 		};

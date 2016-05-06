@@ -33,6 +33,12 @@
 		840EB2331CDCBC60008FEB6D /* GTLServiceClassmng.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EB2241CDCBC60008FEB6D /* GTLServiceClassmng.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		840EB2341CDCBC60008FEB6D /* GTLServiceSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EB2261CDCBC60008FEB6D /* GTLServiceSchedule.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		840EB2471CDCBCE8008FEB6D /* GTL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840EB2401CDCBCCE008FEB6D /* GTL.framework */; };
+		840EB25D1CDCC349008FEB6D /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840EB25C1CDCC349008FEB6D /* AddressBook.framework */; };
+		840EB25F1CDCC355008FEB6D /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840EB25E1CDCC355008FEB6D /* SafariServices.framework */; };
+		840EB2611CDCC360008FEB6D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840EB2601CDCC360008FEB6D /* SystemConfiguration.framework */; };
+		840EB2631CDCC3C4008FEB6D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 840EB2621CDCC3C4008FEB6D /* GoogleService-Info.plist */; };
+		840EB2651CDCC4E4008FEB6D /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840EB2641CDCC4E4008FEB6D /* GoogleSignIn.framework */; };
+		840EB2671CDCC4FB008FEB6D /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 840EB2661CDCC4FB008FEB6D /* GoogleSignIn.bundle */; };
 		8440F0E91CBA028D00A6208A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440F0E81CBA028D00A6208A /* AppDelegate.swift */; };
 		8440F0EB1CBA028D00A6208A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440F0EA1CBA028D00A6208A /* FirstViewController.swift */; };
 		8440F0ED1CBA028D00A6208A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440F0EC1CBA028D00A6208A /* SecondViewController.swift */; };
@@ -148,6 +154,12 @@
 		840EB2251CDCBC60008FEB6D /* GTLServiceSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLServiceSchedule.h; sourceTree = "<group>"; };
 		840EB2261CDCBC60008FEB6D /* GTLServiceSchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLServiceSchedule.m; sourceTree = "<group>"; };
 		840EB2351CDCBCCE008FEB6D /* GTLCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GTLCore.xcodeproj; path = "../../../google-api-objectivec-client/Source/GTLCore.xcodeproj"; sourceTree = "<group>"; };
+		840EB25C1CDCC349008FEB6D /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		840EB25E1CDCC355008FEB6D /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		840EB2601CDCC360008FEB6D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		840EB2621CDCC3C4008FEB6D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		840EB2641CDCC4E4008FEB6D /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
+		840EB2661CDCC4FB008FEB6D /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
 		8440F0E51CBA028C00A6208A /* PencilBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PencilBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8440F0E81CBA028D00A6208A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8440F0EA1CBA028D00A6208A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = CampusLite/FirstViewController.swift; sourceTree = "<group>"; };
@@ -177,7 +189,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840EB2611CDCC360008FEB6D /* SystemConfiguration.framework in Frameworks */,
+				840EB25F1CDCC355008FEB6D /* SafariServices.framework in Frameworks */,
+				840EB25D1CDCC349008FEB6D /* AddressBook.framework in Frameworks */,
 				840EB2471CDCBCE8008FEB6D /* GTL.framework in Frameworks */,
+				840EB2651CDCC4E4008FEB6D /* GoogleSignIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +284,11 @@
 		8440F0DC1CBA028C00A6208A = {
 			isa = PBXGroup;
 			children = (
+				840EB2661CDCC4FB008FEB6D /* GoogleSignIn.bundle */,
+				840EB2641CDCC4E4008FEB6D /* GoogleSignIn.framework */,
+				840EB2601CDCC360008FEB6D /* SystemConfiguration.framework */,
+				840EB25E1CDCC355008FEB6D /* SafariServices.framework */,
+				840EB25C1CDCC349008FEB6D /* AddressBook.framework */,
 				840EB2571CDCC166008FEB6D /* EndpointsAPI */,
 				840EB2351CDCBCCE008FEB6D /* GTLCore.xcodeproj */,
 				840EB17A1CDCB8AA008FEB6D /* GTMapi */,
@@ -298,6 +319,7 @@
 				8440F0EE1CBA028D00A6208A /* Main.storyboard */,
 				8440F0F11CBA028D00A6208A /* Assets.xcassets */,
 				8440F0F31CBA028D00A6208A /* LaunchScreen.storyboard */,
+				840EB2621CDCC3C4008FEB6D /* GoogleService-Info.plist */,
 				8440F0F61CBA028D00A6208A /* Info.plist */,
 			);
 			path = CampusLite;
@@ -447,6 +469,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840EB2631CDCC3C4008FEB6D /* GoogleService-Info.plist in Resources */,
+				840EB2671CDCC4FB008FEB6D /* GoogleSignIn.bundle in Resources */,
 				8440F0F51CBA028D00A6208A /* LaunchScreen.storyboard in Resources */,
 				8440F0F21CBA028D00A6208A /* Assets.xcassets in Resources */,
 				8440F0F01CBA028D00A6208A /* Main.storyboard in Resources */,
@@ -616,6 +640,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: sunchingting@gmail.com (YA5BNCV2MW)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = CampusLite/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -637,6 +665,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: sunchingting@gmail.com (YA5BNCV2MW)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = CampusLite/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

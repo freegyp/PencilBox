@@ -34,8 +34,10 @@ class weekNavigationView: UIView,dateOffsetDelegate {
         didSet{
             if let _ = oldValue{
                 weekdayButtons[oldValue].backgroundColor = UIColor(red: CGFloat(0.95), green: CGFloat(0.95), blue: CGFloat(0.95), alpha: CGFloat(1.0))
+                weekdayButtons[oldValue].setBackgroundImage(UIImage(named: "button_background"), forState: .Normal)
             }
             weekdayButtons[selectedWeekdayIdx].backgroundColor = UIColor.whiteColor()
+            weekdayButtons[selectedWeekdayIdx].setBackgroundImage(UIImage(named: "white_background"), forState: .Normal)
             dateSelectDelegate?.feedbackResult(weekDates[selectedWeekdayIdx])
         }
     }
@@ -59,6 +61,7 @@ class weekNavigationView: UIView,dateOffsetDelegate {
             weekDateSubtitles[i] = UILabel(frame: CGRect(x: CGFloat(w/14-12),y: 42,width: 48,height: 12))
             weekDateSubtitles[i].textColor = UIColor.blueColor()
             weekDateSubtitles[i].backgroundColor = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.0)
+            weekdayButtons[i].setBackgroundImage(UIImage(named: "button_background"), forState: .Normal)
             weekDateSubtitles[i].font = UIFont(name: "Helvetica Neue", size: 12)!
             weekDateSubtitles[i].text = "5.13"
             weekdayButtons[i].addSubview(weekDateSubtitles[i])
@@ -66,6 +69,7 @@ class weekNavigationView: UIView,dateOffsetDelegate {
         }
         weekOffset=0
         weekdayButtons[selectedWeekdayIdx].backgroundColor=UIColor.whiteColor()
+        weekdayButtons[selectedWeekdayIdx].setBackgroundImage(UIImage(named: "white_background"), forState: .Normal)
         //print(weekdayIdx)
         //self.setNeedsDisplay()
     }

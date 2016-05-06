@@ -187,32 +187,6 @@
 		840EB17A1CDCB8AA008FEB6D /* GTMapi */ = {
 			isa = PBXGroup;
 			children = (
-				840EB20C1CDCBC60008FEB6D /* GTLClassmng.h */,
-				840EB20D1CDCBC60008FEB6D /* GTLClassmngClassScheduleItem.h */,
-				840EB20E1CDCBC60008FEB6D /* GTLClassmngClassScheduleItem.m */,
-				840EB20F1CDCBC60008FEB6D /* GTLClassmngConstants.h */,
-				840EB2101CDCBC60008FEB6D /* GTLClassmngConstants.m */,
-				840EB2111CDCBC60008FEB6D /* GTLClassmngUserClassSchedule.h */,
-				840EB2121CDCBC60008FEB6D /* GTLClassmngUserClassSchedule.m */,
-				840EB2131CDCBC60008FEB6D /* GTLClassmngUserMessage.h */,
-				840EB2141CDCBC60008FEB6D /* GTLClassmngUserMessage.m */,
-				840EB2151CDCBC60008FEB6D /* GTLQueryClassmng.h */,
-				840EB2161CDCBC60008FEB6D /* GTLQueryClassmng.m */,
-				840EB2171CDCBC60008FEB6D /* GTLQuerySchedule.h */,
-				840EB2181CDCBC60008FEB6D /* GTLQuerySchedule.m */,
-				840EB21A1CDCBC60008FEB6D /* GTLSchedule.h */,
-				840EB21B1CDCBC60008FEB6D /* GTLScheduleConstants.h */,
-				840EB21C1CDCBC60008FEB6D /* GTLScheduleConstants.m */,
-				840EB21D1CDCBC60008FEB6D /* GTLScheduleDEvent.h */,
-				840EB21E1CDCBC60008FEB6D /* GTLScheduleDEvent.m */,
-				840EB21F1CDCBC60008FEB6D /* GTLScheduleUserMessage.h */,
-				840EB2201CDCBC60008FEB6D /* GTLScheduleUserMessage.m */,
-				840EB2211CDCBC60008FEB6D /* GTLScheduleUserScheduledEvents.h */,
-				840EB2221CDCBC60008FEB6D /* GTLScheduleUserScheduledEvents.m */,
-				840EB2231CDCBC60008FEB6D /* GTLServiceClassmng.h */,
-				840EB2241CDCBC60008FEB6D /* GTLServiceClassmng.m */,
-				840EB2251CDCBC60008FEB6D /* GTLServiceSchedule.h */,
-				840EB2261CDCBC60008FEB6D /* GTLServiceSchedule.m */,
 				840EB1E21CDCBC39008FEB6D /* GTLDefines.h */,
 				840EB1E31CDCBC39008FEB6D /* GTLObject.h */,
 				840EB1E41CDCBC39008FEB6D /* GTLObject.m */,
@@ -258,9 +232,43 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		840EB2571CDCC166008FEB6D /* EndpointsAPI */ = {
+			isa = PBXGroup;
+			children = (
+				840EB20C1CDCBC60008FEB6D /* GTLClassmng.h */,
+				840EB20D1CDCBC60008FEB6D /* GTLClassmngClassScheduleItem.h */,
+				840EB20E1CDCBC60008FEB6D /* GTLClassmngClassScheduleItem.m */,
+				840EB20F1CDCBC60008FEB6D /* GTLClassmngConstants.h */,
+				840EB2101CDCBC60008FEB6D /* GTLClassmngConstants.m */,
+				840EB2111CDCBC60008FEB6D /* GTLClassmngUserClassSchedule.h */,
+				840EB2121CDCBC60008FEB6D /* GTLClassmngUserClassSchedule.m */,
+				840EB2131CDCBC60008FEB6D /* GTLClassmngUserMessage.h */,
+				840EB2141CDCBC60008FEB6D /* GTLClassmngUserMessage.m */,
+				840EB2151CDCBC60008FEB6D /* GTLQueryClassmng.h */,
+				840EB2161CDCBC60008FEB6D /* GTLQueryClassmng.m */,
+				840EB2171CDCBC60008FEB6D /* GTLQuerySchedule.h */,
+				840EB2181CDCBC60008FEB6D /* GTLQuerySchedule.m */,
+				840EB21A1CDCBC60008FEB6D /* GTLSchedule.h */,
+				840EB21B1CDCBC60008FEB6D /* GTLScheduleConstants.h */,
+				840EB21C1CDCBC60008FEB6D /* GTLScheduleConstants.m */,
+				840EB21D1CDCBC60008FEB6D /* GTLScheduleDEvent.h */,
+				840EB21E1CDCBC60008FEB6D /* GTLScheduleDEvent.m */,
+				840EB21F1CDCBC60008FEB6D /* GTLScheduleUserMessage.h */,
+				840EB2201CDCBC60008FEB6D /* GTLScheduleUserMessage.m */,
+				840EB2211CDCBC60008FEB6D /* GTLScheduleUserScheduledEvents.h */,
+				840EB2221CDCBC60008FEB6D /* GTLScheduleUserScheduledEvents.m */,
+				840EB2231CDCBC60008FEB6D /* GTLServiceClassmng.h */,
+				840EB2241CDCBC60008FEB6D /* GTLServiceClassmng.m */,
+				840EB2251CDCBC60008FEB6D /* GTLServiceSchedule.h */,
+				840EB2261CDCBC60008FEB6D /* GTLServiceSchedule.m */,
+			);
+			name = EndpointsAPI;
+			sourceTree = "<group>";
+		};
 		8440F0DC1CBA028C00A6208A = {
 			isa = PBXGroup;
 			children = (
+				840EB2571CDCC166008FEB6D /* EndpointsAPI */,
 				840EB2351CDCBCCE008FEB6D /* GTLCore.xcodeproj */,
 				840EB17A1CDCB8AA008FEB6D /* GTMapi */,
 				84D1C4B51CC2287600F73042 /* Home Views */,
@@ -603,7 +611,7 @@
 		8440F0FA1CBA028D00A6208A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: sunchingting@gmail.com (YA5BNCV2MW)";
@@ -623,7 +631,7 @@
 		8440F0FB1CBA028D00A6208A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: sunchingting@gmail.com (YA5BNCV2MW)";
